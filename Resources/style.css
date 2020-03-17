@@ -28,12 +28,48 @@ html {
 
 }
 
+/*-------------------------- Reusable component --------------------------*/
+
+
+.btn{
+    color: #fff;
+    display: inline-block;
+    padding: 1px 30px;
+    font-weight: 300; 
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+
+
+.btn:hover,
+.btn:active{
+    background: #3282b8;
+    
+}
+
+/*-------------------------- Headings --------------------------*/
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+p {
+    padding: 5px 0px;
+    font-size: 19px;
+    font-weight: 100;
+    color: #dddddd;
+}
+
+
 /*-------------------------- Navigation  ---------------------*/
+
 
 .nav-name {
     font-family: 'Caveat', cursive;
     font-size: 55px;
-    margin-top: 55px;
     list-style: none;
     display: inline-block;
     padding: 30px 85px;
@@ -70,6 +106,7 @@ html {
     border-bottom: 2px solid #bbe1fa;
 }
 
+
 /*-------------------------- Header --------------------------*/
 
 
@@ -82,13 +119,34 @@ header {
     background-attachment: fixed;
 }
 
-.nav-name {
-    max-width: 1140px;
-    margin: 0 auto;
+
+
+.header-text {
+    color: #fff;
+    position:absolute;
+    width: 1240px;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
-.nav-menu {}
 
-.header-text {}
+.header-bio {
+    padding: 15px 650px 12px 0px;
+}
 
-.header-hello-btn {}
+.header-hello-btn{
+    padding: 6px 20px;
+    font-weight: 700;
+    background: #d1d1d1;
+    border: 1px solid #3e3c3c; 
+    color: #0f4c75;
+    margin-right: 15px;
+}
+
+.header-hello-btn:hover,
+.header-hello-btn:active{
+    color: #d1d1d1;
+    background: #0f4c75;
+    border: 1px solid #d1d1d1; 
+}
