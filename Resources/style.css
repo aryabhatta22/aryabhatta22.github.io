@@ -30,22 +30,45 @@ html {
 
 /*-------------------------- Reusable component --------------------------*/
 
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+section{
+    padding: 80px 0;
+    background-size: cover;
+}
+
+a:link, a:visited  {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+a:hover {
+   color:#0f4c75; 
+}
 
 .btn{
-    color: #fff;
     display: inline-block;
-    padding: 1px 30px;
-    font-weight: 300; 
     text-decoration: none;
     border-radius: 200px;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
+    padding: 6px 20px;
+    font-weight: 700;
+    background: #0f4c75;
+    border: 1px solid #d1d1d1; 
+    color: #d1d1d1;
+    margin-right: 15px;
     
 }
 
 
 .btn:hover,
 .btn:active{
-    background: #3282b8;
+    color: #0f4c75;
+    background: #d1d1d1;
+    border: 1px solid #0f4c75; 
     
 }
 
@@ -62,6 +85,34 @@ p {
     font-weight: 100;
     color: #dddddd;
 }
+
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #3282b8;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box{
+    padding: 1%;
+}
+
 
 
 /*-------------------------- Navigation  ---------------------*/
@@ -135,18 +186,26 @@ header {
     padding: 15px 650px 12px 0px;
 }
 
-.header-hello-btn{
-    padding: 6px 20px;
-    font-weight: 700;
-    background: #d1d1d1;
-    border: 1px solid #3e3c3c; 
+
+/*-------------------------- About Me --------------------------*/
+
+.profile-pic{
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    float: left;
+}
+    
+
+.aboutme-data {
+    padding: 20px 20px;
+    text-align: justify;
+    text-justify:inter-word;
+    display: flex;
     color: #0f4c75;
-    margin-right: 15px;
 }
 
-.header-hello-btn:hover,
-.header-hello-btn:active{
-    color: #d1d1d1;
-    background: #0f4c75;
-    border: 1px solid #d1d1d1; 
+.aboutme-btn {
+    margin-left: 15px;
+    margin-top: 10px;
 }
