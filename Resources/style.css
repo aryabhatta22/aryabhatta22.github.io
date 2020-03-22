@@ -30,26 +30,28 @@ html {
 
 /*-------------------------- Reusable component --------------------------*/
 
-.row{
+.row {
     max-width: 1140px;
     margin: 0 auto;
-    
+
 }
 
-section{
+section {
     padding: 80px 0;
     background-size: cover;
 }
 
-a:link, a:visited  {
+a:link,
+a:visited {
     color: #d1d1d1;
     text-decoration: none;
 }
+
 a:hover {
-   color:#0f4c75; 
+    color: #0f4c75;
 }
 
-.btn{
+.btn {
     display: inline-block;
     text-decoration: none;
     border-radius: 200px;
@@ -57,19 +59,19 @@ a:hover {
     padding: 6px 20px;
     font-weight: 700;
     background: #0f4c75;
-    border: 1px solid #d1d1d1; 
+    border: 1px solid #d1d1d1;
     color: #d1d1d1;
     margin-right: 15px;
-    
+
 }
 
 
 .btn:hover,
-.btn:active{
+.btn:active {
     color: #0f4c75;
     background: #d1d1d1;
-    border: 1px solid #0f4c75; 
-    
+    border: 1px solid #0f4c75;
+
 }
 
 /*-------------------------- Headings --------------------------*/
@@ -86,7 +88,7 @@ p {
     color: #dddddd;
 }
 
-h2{
+h2 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
@@ -94,12 +96,12 @@ h2{
     letter-spacing: 1px;
 }
 
-h3{
+h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
 
-h2:after{
+h2:after {
     display: block;
     height: 2px;
     background-color: #3282b8;
@@ -109,7 +111,7 @@ h2:after{
     margin-top: 30px;
 }
 
-.box{
+.box {
     padding: 1%;
 }
 
@@ -174,11 +176,11 @@ header {
 
 .header-text {
     color: #fff;
-    position:absolute;
+    position: absolute;
     width: 1240px;
     top: 53%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
 
@@ -189,18 +191,18 @@ header {
 
 /*-------------------------- About Me --------------------------*/
 
-.profile-pic{
+.profile-pic {
     padding: 10px;
     margin: 10px;
     width: 30%;
     float: left;
 }
-    
+
 
 .aboutme-data {
     padding: 20px 20px;
     text-align: justify;
-    text-justify:inter-word;
+    text-justify: inter-word;
     display: flex;
     color: #0f4c75;
 }
@@ -208,4 +210,48 @@ header {
 .aboutme-btn {
     margin-left: 15px;
     margin-top: 10px;
+}
+
+/*-------------------------- Education --------------------------*/
+
+.section-EE {
+    margin:  10px 100px;
+}
+
+.card img {
+    width:  100%;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card:first-child {
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.card:last-child {
+    margin-right: 80px;
+    margin-left: 100px;
+}
+
+.card {
+    margin: 80px 0px;
+    background: #dce5eb;
+    display: inline-block;
+	float:left;
+    width: 21%; 
+    border: 0px solid black;
+    border-radius: 15px;
+
+}
+.EE-info {
+    padding: 10px;
+}
+
+.EE-info h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f3f5f
+}
+.card p {
+    color: #1c3848;
 }
