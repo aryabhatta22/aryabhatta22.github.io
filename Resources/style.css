@@ -259,14 +259,48 @@ header {
     color: #1c3848;
 }
 
+/*-------------------------- Skills --------------------------*/
 
-.swiper-container {
-    background: #a21c1c;
-    width: 100%;
-    height: 100%;
+
+
+.skill-menu {
+    width: 20%;
+    margin-left: 120px;
+    margin-top: 65px;
+    margin-bottom: 100px;
+    margin-right: 10px;
+    color: #0f3f5f;
+    float: left;
 }
 
-.swiper-slide {
-    background-position: center;
+.skill-text:first-child {
+    margin-top: 50px;
 }
 
+.skill-text:last-child {
+    margin-bottom: 50px;
+}
+
+.skill-text {
+    text-align:center;
+    font-size: 25px;
+    list-style: none;
+    padding: 5px;
+}
+
+.skill-text:hover,
+.skill-text:active {
+
+    background: rgba(50, 130, 184, 0.4);
+    border-radius: 5px;
+}
+
+.skill-bio {
+    background-color: rgba(221, 213, 213, 0.31);
+    border-radius: 40px;
+    margin-top: 50px;
+    padding: 105px;
+    display: inline-block;
+    float: flex;
+    width: 60%;
+}
