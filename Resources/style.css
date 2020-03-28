@@ -282,14 +282,13 @@ header {
 }
 
 .skill-text {
-    text-align:center;
+    text-align: center;
     font-size: 25px;
     list-style: none;
     padding: 5px;
 }
 
-.skill-text:hover,
-.skill-text:active {
+.skill-text:hover {
 
     background: rgba(50, 130, 184, 0.4);
     border-radius: 5px;
@@ -303,4 +302,38 @@ header {
     display: inline-block;
     float: flex;
     width: 60%;
+}
+
+/*-------------------------- Projects --------------------------*/
+
+.project-container {
+    display: flex;
+    margin: 80px;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.project-card {
+    padding: 30px;
+    width: 300px;
+    height: 250px;
+    border-radius: 4%;
+    background: #0f3f5f;
+}
+
+.project-card-title{
+    font-size: 25px;
+    color: rgba(198, 162, 44, 0.89);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 5px;
+    margin-bottom: 10px
+} 
+
+.project-card-desc p{
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px;
 }
