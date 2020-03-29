@@ -74,6 +74,15 @@ a:hover {
 
 }
 
+
+/*-------------------------- Icons --------------------------*/
+.icon {
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin: 2px;
+}
+
 /*-------------------------- Headings --------------------------*/
 
 h1 {
@@ -214,50 +223,53 @@ header {
 
 /*-------------------------- Education --------------------------*/
 
-.section-EE {
-    margin: 10px 100px;
+.EE-container {
+    display: flex;
+    margin: 120px 80px;
+    flex-direction: row;
+    justify-content: space-around
 }
 
-.card img {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 50%;
+.EE-card {
+    margin: 10px;
+        width: 250px;
+    height: 250px;
+    border-radius: 4%;
 }
 
-.card:first-child {
-    margin-left: 80px;
-    margin-right: 100px;
-}
-
-.card:last-child {
-    margin-right: 80px;
-    margin-left: 100px;
-}
-
-.card {
-    margin: 80px 0px;
-    background: #dce5eb;
-    display: inline-block;
-    float: left;
-    width: 21%;
-    border: 0px solid black;
-    border-radius: 15px;
-
-}
-
-.EE-info {
-    padding: 10px;
-}
-
-.EE-info h3 {
+.EE-card span {
+    color:#0f3f5f;
+    display: block;
     text-align: center;
-    text-transform: uppercase;
-    color: #0f3f5f
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 15px;
 }
 
-.card p {
-    color: #1c3848;
+.EE-card-text {
+    padding: 20px;
+    background: #474748;
+    border-radius: 8%;
+    height: 200px;
+
 }
+
+.EE-card-title {
+    font-size: 25px;
+    color: rgba(198, 162, 44, 0.89);
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+
+}
+
+.EE-card-desc p {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px;
+ 
+}
+
 
 /*-------------------------- Skills --------------------------*/
 
@@ -321,6 +333,15 @@ header {
     background: #0f3f5f;
 }
 
+.project-card span {
+    color:#fff;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
 .project-card-title {
     font-size: 25px;
     color: rgba(198, 162, 44, 0.89);
@@ -338,14 +359,14 @@ header {
     padding: 5px;
 }
 
-/*-------------------------- Projects --------------------------*/
+/*-------------------------- Contact Me --------------------------*/
 
 .section-contact {}
 
 .container-contact {
     border: 2px solid #0f4c75;
     display: flex;
-    margin: 120px;
+    margin: 70px 120px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -362,9 +383,14 @@ header {
 .container-contact-left h3 {
     color: #0f4c75;
     font-size: 26px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
+.container-contact-left  h3 .icon {
+    float: right;
+    margin-right: 80px;
+    font-size: 45px;
+}
 .container-contact-form label {
     display: flex;
     flex-direction: column;
@@ -380,6 +406,7 @@ textarea {
     height: 40px;
     padding-left: 10px;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 
@@ -390,7 +417,7 @@ textarea {
 
 .container-contact-form .btn {
     width: 100px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .container-contact-right {
@@ -410,6 +437,19 @@ textarea {
 .contact-info {
     margin-top: 40px;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 40px;
     color: #fff;
+}
+.contact-info .icon {
+    margin-right: 10px;
+}
+
+
+.contact-social {
+    display: flex;
+    color: #fff;
+    margin-top: 170px;
+    font-size: 30px;
+    padding: 5px;flex-flow: row;
+    justify-content: space-between;
 }
