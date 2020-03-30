@@ -232,23 +232,23 @@ header {
 
 .EE-card {
     margin: 10px;
-        width: 250px;
+    width: 250px;
     height: 250px;
     border-radius: 4%;
 }
 
 .EE-card span {
-    color:#0f3f5f;
+    color: rgba(183, 147, 28, 0.89);
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 200;
     margin-bottom: 15px;
 }
 
 .EE-card-text {
     padding: 20px;
-    background: #474748;
+    background: #000839;
     border-radius: 8%;
     height: 200px;
 
@@ -267,7 +267,7 @@ header {
     text-align: justify;
     font-weight: 300;
     font-size: 16px;
- 
+
 }
 
 
@@ -334,7 +334,7 @@ header {
 }
 
 .project-card span {
-    color:#fff;
+    color: #fff;
     display: block;
     text-align: center;
     font-size: 40px;
@@ -386,11 +386,12 @@ header {
     margin-bottom: 35px;
 }
 
-.container-contact-left  h3 .icon {
+.container-contact-left h3 .icon {
     float: right;
     margin-right: 80px;
     font-size: 45px;
 }
+
 .container-contact-form label {
     display: flex;
     flex-direction: column;
@@ -440,6 +441,7 @@ textarea {
     line-height: 40px;
     color: #fff;
 }
+
 .contact-info .icon {
     margin-right: 10px;
 }
@@ -450,6 +452,39 @@ textarea {
     color: #fff;
     margin-top: 170px;
     font-size: 30px;
-    padding: 5px;flex-flow: row;
+    padding: 5px;
+    flex-flow: row;
     justify-content: space-between;
+}
+
+/*-------------------------- Footer --------------------------*/
+
+.footer-container {
+    background: #072b43;
+    display: flex;
+}
+
+.footer-menu {
+    margin: 5px 250px 5px 150px;
+    font-size: 15px;
+
+}
+
+.footer-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.footer-menu ul li a:hover {
+    color: #db7a18;
+}
+.footer-nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.footer-cc p {
+    float: right;
+    font-size: 15px;
 }
