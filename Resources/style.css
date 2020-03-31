@@ -225,53 +225,101 @@ header {
 
 .EE-container {
     display: flex;
-    margin: 120px 80px;
+    margin: 80px 80px;
     flex-direction: row;
     justify-content: space-around
 }
 
 .EE-card {
-    margin: 10px;
     width: 250px;
-    height: 250px;
-    border-radius: 4%;
+    height: auto;
 }
 
-.EE-card span {
-    color: rgba(183, 147, 28, 0.89);
+.EE-card-up {
+    background: #0f3f5f;
+    margin: 0px;
+    padding: 20px;
+    border: 1px hidden #0f3f5f;
+    border-radius: 5%;
+    position: relative;
+    z-index: 1;
+    transform: translateY(50px);
+    transition: transform 0.6s ease;
+}
+
+.EE-card-up span {
+    font-size: 70px;
+    padding: 15px;
+}
+
+.EE-card-up span,
+.EE-card-up h3 {
+    transition: transform 0.6s ease;
+    color: #fff;
+    opacity: 0.3;
     display: block;
     text-align: center;
-    font-size: 60px;
-    font-weight: 200;
-    margin-bottom: 15px;
+    margin: 0px;
 }
 
-.EE-card-text {
-    padding: 20px;
-    background: #000839;
-    border-radius: 8%;
-    height: 200px;
-
-}
-
-.EE-card-title {
+.EE-card-up h3 {
     font-size: 25px;
-    color: rgba(198, 162, 44, 0.89);
-    text-align: center;
-    font-weight: 700;
+    font-weight: 100;
+}
+
+
+.EE-card-down {
+    margin: 0px 8px 0px 8px;
+    
+}
+.EE-card-down p {
     padding: 20px;
-
-}
-
-.EE-card-desc p {
+    color: #0f3f5f;
+    background: #cad7de;
     text-align: justify;
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px hidden ;
+    border-top: 0px; 
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    transform: translateY(-90px);
+     transition: transform 0.4s ease;
+}
 
+.EE-card-down .btn { 
+    margin: 10px 83px 0px 83px;
+    text-align: justify;
+    transform: translateY(-180px);
+    transition: transform 0.5s ease;
+    transition-delay: 0.1s;
 }
 
 
-/*-------------------------- Skills --------------------------*/
+ .EE-card:hover .EE-card-up {
+    
+    transform: translateY(0px);
+     transition: transform 0.6s ease;
+}
+
+.EE-card:hover .EE-card-up span,
+.EE-card:hover .EE-card-up h3  {
+    transition: transform 0.6s ease;
+    opacity: 1;
+}
+
+.EE-card:hover .EE-card-down p {
+    transition: transform 0.5s ease;
+    transform: translateY(0px);
+    transition-delay: 0.1s;
+}
+
+.EE-card:hover .EE-card-down .btn {
+    transition: transform 0.4s ease;
+    transform: translateY(0px);
+}
+
+-------------------------- Skills --------------------------*/
 
 
 
@@ -478,6 +526,7 @@ textarea {
 .footer-menu ul li a:hover {
     color: #db7a18;
 }
+
 .footer-nav {
     display: flex;
     flex-flow: row;
