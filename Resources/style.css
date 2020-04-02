@@ -60,7 +60,7 @@ btn:hover a {
     font-weight: 700;
     background: #0f4c75;
     border: 1px solid #d1d1d1;
-    color: #d1d1d1;
+    color: #fff;
     margin-right: 15px;
 
 }
@@ -202,16 +202,26 @@ header {
 
 /*-------------------------- About Me --------------------------*/
 
-.profile-pic {
-    padding: 10px;
-    margin: 10px;
-    width: 30%;
-    float: left;
+
+
+.section-about {
+    margin: 40px 0px;
 }
 
+.about-container {
+    margin: 110px 140px;
+}
+
+.profile-pic {
+    margin-right: 38px;
+    padding: 2px;
+    width: 25%;
+    float: left;
+    border: 1px solid #0f4c75;
+}
 
 .aboutme-data {
-    padding: 20px 20px;
+    padding: 20px 30px;
     text-align: justify;
     text-justify: inter-word;
     display: flex;
@@ -219,15 +229,19 @@ header {
 }
 
 .aboutme-btn {
-    margin-left: 15px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 
 /*-------------------------- Education --------------------------*/
 
+.section-EE {
+    margin: 10px;
+}
+
 .EE-container {
     display: flex;
-    margin: 80px 80px;
+    margin: 110px 80px 30px 80px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -324,25 +338,22 @@ header {
 
 /*-------------------------- Skills --------------------------*/
 
-
+.section-skills {
+    margin: 0px;
+}
 
 .skill-menu {
     width: 100%;
     margin-left: 120px;
-    margin-top: 65px;
+    margin-top: 200px;
     margin-bottom: 10px;
-    margin-right: 120px;
     color: #0f3f5f;
-    float: left;
 }
 
 .skill-text:first-child {
     margin-top: 30px;
 }
 
-.skill-text:last-child {
-    margin-bottom: 30px;
-}
 
 .skill-text {
     width: 20%;
@@ -363,44 +374,47 @@ header {
     color: #fff;
     background-color: #0f4c75;
     border-radius: 40px;
-    margin-top: 20px;
+    margin-top: -20px;
     padding: 70px 10px 70px 70px;
-    display: inline-block;
     width: 60%;
     font-size: 53px;
-    transform: translate3D(300px, -280px, 0px);
+    transform: translate3D(310px, -270px, 0px);
 }
 
 .skill-bio .iconify {
-    display: inline-block;
     justify-content: space-around;
     margin-right: 30px;
     margin-bottom: 20px;
 }
 
 
-#skill-1:hover ~.skill-bio .pro {
+#skill-1:hover ~ .skill-bio .pro {
     color: #db7a18;
 }
 
-#skill-2:hover ~.skill-bio .web {
+#skill-2:hover ~ .skill-bio .web {
     color: #db7a18;
 }
 
 
-#skill-3:hover ~.skill-bio .ml {
+#skill-3:hover ~ .skill-bio .ml {
     color: #db7a18;
 }
 
-#skill-4:hover ~.skill-bio .other{
+#skill-4:hover ~ .skill-bio .other {
     color: #db7a18;
 }
 
 /*-------------------------- Projects --------------------------*/
 
+.section-pro {
+    display: block;
+    margin: -200px 0px 50px 0px;
+}
+
 .project-container {
     display: flex;
-    margin: 80px;
+    margin: 130px 80px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -487,12 +501,12 @@ header {
 
 /*-------------------------- Contact Me --------------------------*/
 
-.section-contact {}
+
 
 .container-contact {
     border: 2px solid #0f4c75;
     display: flex;
-    margin: 70px 120px;
+    margin: 40px 120px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -581,6 +595,11 @@ textarea {
     padding: 5px;
     flex-flow: row;
     justify-content: space-between;
+}
+
+.contact-social .iconify {
+    font-size: 35px;
+    color: #fff;
 }
 
 .contact-social .iconify:hover {
