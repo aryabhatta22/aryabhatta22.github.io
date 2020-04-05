@@ -8,6 +8,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -28,13 +29,8 @@ html {
 
 }
 
+
 /*-------------------------- Reusable component --------------------------*/
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-
-}
 
 section {
     padding: 80px 0;
@@ -236,7 +232,7 @@ header {
 /*-------------------------- Education --------------------------*/
 
 .section-EE {
-    margin: 10px;
+    margin: 0px;
 }
 
 .EE-container {
@@ -339,14 +335,12 @@ header {
 /*-------------------------- Skills --------------------------*/
 
 .section-skills {
-    margin: 0px;
+    margin: 0px 0px;
 }
 
 .skill-menu {
-    width: 100%;
     margin-left: 120px;
-    margin-top: 200px;
-    margin-bottom: 10px;
+    margin-top: 190px;
     color: #0f3f5f;
 }
 
@@ -360,6 +354,7 @@ header {
     text-align: center;
     font-size: 25px;
     list-style: none;
+    font-weight: 600;
     padding: 10px;
 }
 
@@ -367,7 +362,7 @@ header {
     color: #fff;
     background: #db7a18;
     border-radius: 15px;
-    transition: background 0.6s ease;
+    transition: background 0.3s ease;
 }
 
 .skill-bio {
@@ -376,9 +371,9 @@ header {
     border-radius: 40px;
     margin-top: -20px;
     padding: 70px 10px 70px 70px;
-    width: 60%;
+    width: 65%;
     font-size: 53px;
-    transform: translate3D(310px, -270px, 0px);
+    transform: translate3D(310px, -240px, 0px);
 }
 
 .skill-bio .iconify {
@@ -409,12 +404,13 @@ header {
 
 .section-pro {
     display: block;
-    margin: -200px 0px 50px 0px;
+    margin: 0px 0px 00px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .project-container {
     display: flex;
-    margin: 130px 80px;
+    margin: 200px 80px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -495,13 +491,16 @@ header {
 }
 
 .project-card:hover .project-card-up div {
-    transform: translate3d(40px, -50px, -10px);
+    transform: translate3d(45px, -53px, -10px);
     transition: transform 0.7s ease;
 }
 
 /*-------------------------- Contact Me --------------------------*/
 
-
+.section-contact {
+    margin: 0px 0px 10px 0px;
+    padding: 40px 0px;;
+}
 
 .container-contact {
     border: 2px solid #0f4c75;
