@@ -135,7 +135,7 @@ h2:after {
 }
 
 .nav-scroll .nav-menu {
-    font-size: 15px;
+    font-size: 17px;
     list-style: none;
     margin-top: 30px;
     margin-right: 45px;
@@ -143,8 +143,8 @@ h2:after {
 }
 
 .nav-scroll .nav-name {
-    font-size: 30px;
-    padding: 20px 70px;
+    font-size: 35px;
+    padding: 15px 70px;
 }
 
 .nav-name {
@@ -155,6 +155,7 @@ h2:after {
     padding: 30px 85px;
     color: #fff;
     border-bottom: 2px;
+    text-decoration: none;
 }
 
 .nav-menu {
