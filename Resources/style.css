@@ -390,7 +390,6 @@ header {
     color: #fff;
     background-color: #0f4c75;
     border-radius: 40px;
-    margin-top: -20px;
     padding: 70px 10px 70px 70px;
     width: 65%;
     font-size: 53px;
@@ -425,7 +424,7 @@ header {
 
 .section-pro {
     display: block;
-    margin: 0px 0px 00px 0px;
+    margin: -200px 0px 00px 0px;
     padding: 100px 0px 0px 0px;
 }
 
