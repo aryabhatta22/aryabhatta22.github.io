@@ -16,8 +16,8 @@
 </head>
 
 <body>
-    <header>
-        <nav id="nav-home">
+    <header id="my-header">
+        <nav id="nav-bar">
                 <div class="nav-name">
                     Tarun Sharma
                 </div>
@@ -38,7 +38,21 @@
                 <p>I like to develop inetresting projects on WebApps, Deep Learning &amp; Computer Vision</p>
             </div>
         </div>
-        
+        <script>
+            var header = document.getElementById('my-header');
+            var scale = header.offsetHeight;
+            console.log(scale);
+            window.addEventListener('scroll', function() {
+                let menuArea = document.getElementById('nav-bar');
+
+                if (window.pageYOffset > scale) {
+                    menuArea.classList.add('nav-scroll')
+                } else {
+                    menuArea.classList.remove('nav-scroll')
+                }
+            })
+        </script>
+
     </header>
 
     <!--------------------About Me---------------------->

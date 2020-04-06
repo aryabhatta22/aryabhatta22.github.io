@@ -33,7 +33,7 @@ html {
 /*-------------------------- Reusable component --------------------------*/
 
 section {
-    padding: 80px 0;
+    padding: 100px 0;
     background-size: cover;
 }
 
@@ -126,6 +126,26 @@ h2:after {
 
 /*-------------------------- Navigation  ---------------------*/
 
+.nav-scroll {
+    background: #0f4c75;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    transition: background 0.7s ease;
+}
+
+.nav-scroll .nav-menu {
+    font-size: 15px;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 45px;
+    margin-left: 170px;
+}
+
+.nav-scroll .nav-name {
+    font-size: 30px;
+    padding: 20px 70px;
+}
 
 .nav-name {
     font-family: 'Caveat', cursive;
@@ -142,6 +162,7 @@ h2:after {
     list-style: none;
     margin-top: 55px;
     margin-right: 35px;
+    margin-left: 170px;
 }
 
 .nav-menu li {
@@ -165,7 +186,6 @@ h2:after {
 .nav-menu li a:active {
     border-bottom: 2px solid #bbe1fa;
 }
-
 
 /*-------------------------- Header --------------------------*/
 
@@ -201,7 +221,7 @@ header {
 
 
 .section-about {
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
 
 .about-container {
@@ -232,7 +252,7 @@ header {
 /*-------------------------- Education --------------------------*/
 
 .section-EE {
-    margin: 0px;
+    margin: 5px 0px;
 }
 
 .EE-container {
@@ -405,12 +425,12 @@ header {
 .section-pro {
     display: block;
     margin: 0px 0px 00px 0px;
-    padding: 50px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
 }
 
 .project-container {
     display: flex;
-    margin: 200px 80px;
+    margin: 120px 80px;
     flex-direction: row;
     justify-content: space-around
 }
@@ -499,7 +519,8 @@ header {
 
 .section-contact {
     margin: 0px 0px 10px 0px;
-    padding: 40px 0px;;
+    padding: 80px 0px;
+    ;
 }
 
 .container-contact {
