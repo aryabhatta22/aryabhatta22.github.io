@@ -29,6 +29,20 @@ html {
 
 }
 
+.nav-menu {
+    margin-top: 0px;
+}
+.nav-menu li{
+    font-size: 20px;
+}
+
+.iconify{
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
 /*-------------------------- Project - Cards --------------------------*/
 
 .projects {
@@ -78,8 +92,17 @@ html {
     margin: 0;
     padding: 0;
     color: #fff;
+    font-size: 18px;
+    text-align: justify;
 }
 
+.project-container .card .face-under .iconify {
+    color: #fff;
+    margin: 15px 100px;
+    font-size: 40px;
+
+    
+}
 .project-container .card .face-above {
     border: 2px solid #fff;
     border-radius: 5%;
