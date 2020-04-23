@@ -196,11 +196,10 @@ h2:after {
 
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-background.jpeg);
+    background-image: linear-gradient(rgba(7, 43, 67, 0.76), rgba(0, 0, 0, 0)), url(./img/background-svg.svg);
     background-size: cover;
     background-position: center;
     height: 100vh;
-    background-attachment: fixed;
 }
 
 
