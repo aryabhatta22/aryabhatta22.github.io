@@ -32,8 +32,7 @@
         <div class="header-text">
             <h3 class=" btn header-hello-btn">Hello!</h3>
             <div class="header-bio">
-                <h1>I am a Developer</h1>
-                <p>I like to develop inetresting projects on WebApps, Deep Learning &amp; Computer Vision</p>
+                <h1><span class="typing"></span></h1>
             </div>
         </div>
         <script>
@@ -207,12 +206,12 @@
         <div class="container-contact" data-aos="zoom-in">
             <div class="container-contact-left">
 
-            
+
                 <h3>Send me a Message<span class="material-icons icon">
                         email
                     </span></h3>
 
-                <form method="post" action="https://github.us8.list-manage.com/subscribe/post?u=f520327b32ac877c84e5fb87c&amp;id=d5954b3d3c" class="container-contact-form"  target="_blank" novalidate>
+                <form method="post" action="https://github.us8.list-manage.com/subscribe/post?u=f520327b32ac877c84e5fb87c&amp;id=d5954b3d3c" class="container-contact-form" target="_blank" novalidate>
                     <label for="name">Name</label>
                     <input type="text" name="FNAME" id="mce-FNAME" placeholder="Your Name" required>
                     <label for="email">E-Mail</label>
@@ -222,7 +221,7 @@
                     <input class="btn header-hello-btn" type="submit" value="send it!">
                 </form>
 
-                
+
             </div>
 
             <div class="container-contact-right">
@@ -268,9 +267,21 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+    <script src="JS/jquery-3.5.0.min.js"></script>
+    <script src="JS/typed.min.js"></script>
     <script>
         AOS.init({
             duration: 1300
+        });
+    </script>
+    <script type="text/javascript">
+        var typed = new Typed('.typing', {
+            strings: ["Welcome to my Portfolio.", "I'm happy to see you."],
+            typeSpeed: 30,
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 40,
+            backDelay: 1000
         });
     </script>
 </body></html>

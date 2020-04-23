@@ -208,17 +208,19 @@ header {
     color: #fff;
     position: absolute;
     width: 1240px;
-    top: 53%;
+    top: 47%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-48%, -50%);
+    font-size: 20px;
+    font-weight:200; 
 }
 
 
-.header-bio {
-    padding: 15px 650px 12px 0px;
+
+.header-hello-btn {
+    margin-left: 0px;
+    margin-bottom: 20px;
 }
-
-
 /*-------------------------- About Me --------------------------*/
 
 
