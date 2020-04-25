@@ -221,6 +221,32 @@ header {
     margin-left: 0px;
     margin-bottom: 20px;
 }
+
+.typed-cursor {
+    color: #c16c17;
+}
+
+.header-quote {
+    margin-left: 60%;
+    margin-bottom: 0px;
+    margin-right: 80px;
+    transform: translate(0%, 82%);
+}
+.header-quote p{
+    
+    color: #082a41;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    font-size: 26px;
+}
+
+.quote-author {
+    color: #082a41;
+    font-weight: 100;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    margin-left: 50%;
+}
 /*-------------------------- About Me --------------------------*/
 
 
