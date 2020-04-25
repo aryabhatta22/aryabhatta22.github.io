@@ -1,0 +1,48 @@
+/******************* Iphone 6, 7, 8 + *******************/
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+
+/******************* Galxy S5 *******************/
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+
+
+    /*      ---------- Header ---------- */
+    .nav-name {
+        font-size: 50px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 40%;
+        display: block;
+    }
+
+    .nav-menu {
+        margin-top: 25px;
+        display: block;
+        margin-right: 130px;
+        margin-left: 0px;
+        font-weight: 100;
+        font-size: 21px;
+    }
+
+    header {
+        margin: 0px;
+        height: 50vh;
+    }
+
+    .header-text {
+        transform: translate(-32%, -430%);
+        font-size: 20px;
+
+    }
+
+    .header-hello-btn {
+
+        margin-bottom: 5px;
+    }
+
+    .typing {
+        font-size: 30px;
+    }
+}
