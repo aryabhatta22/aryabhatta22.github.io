@@ -12,18 +12,23 @@
     .nav-name {
         font-size: 50px;
         padding: 10px;
-        margin-top: 20px;
-        margin-left: 40%;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-left: 15%;
         display: block;
     }
 
     .nav-menu {
-        margin-top: 25px;
+        margin-top: 15px;
         display: block;
-        margin-right: 130px;
+        margin-right: 20px;
         margin-left: 0px;
         font-weight: 100;
-        font-size: 21px;
+        font-size: 10px;
+    }
+
+    .nav-menu li {
+        margin-left: 15px;
     }
 
     header {
@@ -32,17 +37,40 @@
     }
 
     .header-text {
-        transform: translate(-32%, -430%);
+        color: rgba(206, 126, 46, 0.84);
+        transform: translate(-10%, -135%);
         font-size: 20px;
 
     }
 
     .header-hello-btn {
 
-        margin-bottom: 5px;
+        margin-bottom: 0px;
+        margin-left: 60px;
     }
 
     .typing {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .typed-cursor {
+        color: rgba(8, 42, 65, 0.64);
+        font-size: 40px;
+    }
+
+
+    .header-quote {
+        margin-left: 15%;
+        transform: translate(0%, 208%);
+        margin-right: 15%;
+    }
+
+    .header-quote p {
+        font-size: 12px;
+    }
+
+    .quote-author {
+        font-size: 12px;
+        margin-left: 40%;
     }
 }
