@@ -10,27 +10,32 @@
     /*      ---------- Navigation ---------- */
 
     .nav-scroll {
-        margin: 0px;
-        padding: 0px;
+        display: block;
         top: 0%;
     }
 
     .nav-scroll .nav-menu {
-        display: none;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        float: none;
+        margin: 0px;
     }
 
     .nav-scroll .nav-name {
+        width: 100%;
         font-size: 55px;
         display: block;
         text-align: center;
         padding: 0px;
         float: none;
+        margin: 0px 0px 10px 0px;
     }
 
     /*      ---------- Header ---------- */
 
     .nav-name {
-        font-size: 50px;
+        font-size: 55px;
         padding: 10px;
         padding-top: 20px;
         margin-top: 0px;
@@ -52,7 +57,7 @@
         flex-flow: row;
         justify-content: space-between;
         flex-direction: row;
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     header {
@@ -67,7 +72,7 @@
         text-align: center;
         width: 100%;
         left: 0%;
-        transform: translate(0%, -150%);
+        transform: translate(0%, -130%);
         margin-top: 20px;
 
     }
@@ -91,7 +96,7 @@
     .header-quote {
         display: block;
         margin: 50px 10% 40px 10%;
-        transform: translate(0%, 200%);
+        transform: translate(0%, 220%);
         text-align: justify;
     }
 
@@ -110,6 +115,173 @@
     /*-------------------------- About Me --------------------------*/
 
     .section-about {
-        margin: 20px 0px;
+        margin: 40px 0px 0px 0px;
+        ;
     }
-}
+
+    .about-container {
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .profile-pic {
+
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin: 0px;
+        float: none;
+        border: 1px solid #0f4c75;
+    }
+
+    .aboutme-data {
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    .aboutme-btn:first-of-type {
+        margin-top: 30px;
+        margin-left: 9%;
+        margin-right: 9%;
+        font-size: 25px;
+    }
+
+    .aboutme-btn:last-of-type {
+        margin-top: 15px;
+        margin-left: 28%;
+        margin-right: 28%;
+        font-size: 25px;
+    }
+
+    /*-------------------------- Education -------------------------*/
+
+    .section-EE {
+        margin: -125px 0px;
+    }
+
+    .EE-container {
+        margin-top: 50px;
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+
+    /*-------------------------- Skills --------------------------*/
+
+    .section-skills {
+        margin: -200px 0px;
+    }
+
+    .skill-menu {
+        margin-left: 0px;
+        margin-top: 20px;
+        margin: 0px 20px 0px 20px;
+    }
+
+    .skill-text {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .skill-bio {
+        padding: 30px;
+        margin-top: 30px;
+        width: 100%;
+        font-size: 53px;
+        transform: translate3D(0px, 0px, 0px);
+        text-align: justify;
+    }
+
+    .skill-bio .iconify {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    /*-------------------------- Projects --------------------------*/
+
+    .section-pro {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .project-container {
+        margin: 50px 60px 30px 60px;
+        flex-direction: column;
+    }
+
+    .project-card {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    /*-------------------------- Contact Me --------------------------*/
+
+    .section-contact {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .container-contact {
+        margin: 40px 30px;
+        flex-direction: column;
+    }
+
+    .container-contact-left {
+        padding: 40px 30px 30px 30px;
+        width: 100%;
+    }
+
+    .container-contact-left h3 {
+
+        font-size: 20px;
+    }
+
+    .container-contact-left h3 .icon {
+        margin-right: 0px;
+        transform: translate(20px, -30px);
+        font-size: 50px;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    textarea {
+        height: 100px;
+    }
+
+    .container-contact-form .btn {
+        margin: 15px 33% 0px 33%;
+    }
+
+    .container-contact-right {
+        width: 100%;
+    }
+
+    .contact-social {
+        margin-top: 40px;
+    }
+
+    /*-------------------------- Footer --------------------------*/
+    .footer-container {
+        background: #072b43;
+        display: block;
+    }
+
+    .footer-menu {
+        margin: 15px 0px 15px 0px;
+        font-size: 15px;
+
+    }
+
+    .footer-menu ul li {
+        margin: 8px 10px 0px 10px;
+    }
+
+    .footer-cc p {
+        float: none;
+        text-align: center;
+        display: block;
+    }
