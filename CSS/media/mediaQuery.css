@@ -72,7 +72,7 @@
         text-align: center;
         width: 100%;
         left: 0%;
-        transform: translate(0%, -130%);
+        transform: translate(0%, -100%);
         margin-top: 20px;
 
     }
@@ -115,8 +115,8 @@
     /*-------------------------- About Me --------------------------*/
 
     .section-about {
-        margin: 40px 0px 0px 0px;
-        ;
+        margin: 80px 0px 0px 0px;
+        
     }
 
     .about-container {
@@ -161,7 +161,10 @@
     .section-EE {
         margin: -125px 0px;
     }
-
+    .section-EE h2 {
+        font-size: 30px;
+        margin: 0px 20px 0px 0xp;
+    }
     .EE-container {
         margin-top: 50px;
         margin-bottom: 0px;
@@ -171,7 +174,7 @@
     /*-------------------------- Skills --------------------------*/
 
     .section-skills {
-        margin: -200px 0px;
+        margin: -100px 0px;
     }
 
     .skill-menu {
