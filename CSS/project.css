@@ -32,11 +32,12 @@ html {
 .nav-menu {
     margin-top: 0px;
 }
-.nav-menu li{
+
+.nav-menu li {
     font-size: 20px;
 }
 
-.iconify{
+.iconify {
     margin: 0px;
     padding: 0px;
     font-size: 25px;
@@ -79,7 +80,7 @@ html {
     height: 300px;
     margin: 30px 60px;
     background: #0f4c75;
-    text-shadow: 0 15px 60px rgba(0,0,0,0.5);
+    text-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
 }
 
 .project-container .card .face {
@@ -114,8 +115,9 @@ html {
     margin: 15px 100px;
     font-size: 40px;
 
-    
+
 }
+
 .project-container .card .face-above {
     border: 2px solid #fff;
     border-radius: 5%;
@@ -136,9 +138,98 @@ html {
     font-size: 30px;
     color: #fff;
     transition: 0.5s;
-    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .project-container .card:hover .face-above h2 {
     font-size: 1.2em;
+}
+
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+
+    .nav-scroll {
+        display: block;
+        top: 0%;
+    }
+
+    .nav-scroll .nav-bar {
+        margin-left: 30px;
+        display: inline-block;
+
+    }
+
+    .nav-scroll .nav-bar span {
+        font-size: 30px;
+    }
+
+    .nav-scroll .nav-menu.respons-nav-menu {
+        display: none;
+
+    }
+    
+    .nav-scroll .github-page.respons-nav-menu {
+        display: none;
+    }
+
+    .nav-scroll .nav-menu {
+        height: 700px;
+        padding-top: 10px;
+        background: rgb(7, 52, 82);
+        display: block;
+        float: none;
+        margin: 0px;
+    }
+
+    .nav-scroll .nav-menu li {
+        display: block;
+
+        margin: 30px 10px 0px 10px;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    .nav-scroll .nav-name {
+        width: 70%;
+        font-size: 55px;
+        display: inline-block;
+        text-align: center;
+        padding: 0px;
+        float: none;
+        margin: 5px 0px 10px 20px;
+    }
+
+    /*      ---------- Header ---------- */
+
+   
+
+    .nav-menu {
+        display: block;
+        text-align: center;
+        font-size: 13px;
+        float: none;
+        margin: 0px;
+    }
+
+    .nav-menu li {
+        display: inline-flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 15px;
+    }
+
+    .github-page {
+        display: block;
+        margin: 0px 0 0px 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-bottom: 1px hidden #fff;
+        width: 100%;
+        font-size: 155px;
+        background: rgb(7, 52, 82);
+    }
+
 }
