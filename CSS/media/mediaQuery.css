@@ -14,22 +14,46 @@
         top: 0%;
     }
 
+    .nav-scroll .nav-bar {
+        margin-left: 30px;
+        display: inline-block;
+
+    }
+
+    .nav-scroll .nav-bar span {
+        font-size: 30px;
+    }
+    
+    .nav-scroll .nav-menu.respons-nav-menu {
+        display: none;
+    }
+
     .nav-scroll .nav-menu {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
+        height: 700px;
+        padding-top: 60px;
+        background: rgb(7, 52, 82);
+        display: block;
         float: none;
         margin: 0px;
     }
 
-    .nav-scroll .nav-name {
-        width: 100%;
-        font-size: 55px;
+    .nav-scroll .nav-menu li {
         display: block;
+        
+        margin: 30px 10px 0px 10px;
+        font-size: 20px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+    }
+    
+    .nav-scroll .nav-name {
+        width: 70%;
+        font-size: 55px;
+        display: inline-block;
         text-align: center;
         padding: 0px;
         float: none;
-        margin: 0px 0px 10px 0px;
+        margin: 0px 0px 10px 20px;
     }
 
     /*      ---------- Header ---------- */
@@ -116,7 +140,7 @@
 
     .section-about {
         margin: 80px 0px 0px 0px;
-        
+
     }
 
     .about-container {
@@ -161,10 +185,12 @@
     .section-EE {
         margin: -125px 0px;
     }
+
     .section-EE h2 {
         font-size: 30px;
         margin: 0px 20px 0px 0xp;
     }
+
     .EE-container {
         margin-top: 50px;
         margin-bottom: 0px;

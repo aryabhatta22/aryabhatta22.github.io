@@ -126,6 +126,11 @@ h2:after {
 
 /*-------------------------- Navigation  ---------------------*/
 
+.nav-bar {
+    color: #fff;
+    display: none;
+}
+
 .nav-scroll {
     background: #0f4c75;
     z-index: 999;
