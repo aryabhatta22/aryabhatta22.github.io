@@ -100,7 +100,7 @@
     .header-hello-btn {
 
         margin-bottom: 10px;
-        margin-left: 70px;
+        margin-left: 40px;
     }
 
     .typing {
@@ -116,7 +116,7 @@
     .header-quote {
         display: block;
         margin: 50px 10% 40px 10%;
-        transform: translate(0%, 220%);
+        transform: translate(0%, 240%);
         text-align: justify;
     }
 
