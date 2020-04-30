@@ -286,6 +286,10 @@ header {
     margin-top: 10px;
 }
 
+.download-resume {
+    text-decoration: none;
+    
+}
 /*-------------------------- Education --------------------------*/
 
 .section-EE {
