@@ -99,6 +99,7 @@ html {
     border: 2px solid #fff;
     box-sizing: border-box;
     padding: 20px;
+    padding-top: 30px;
     border-radius: 5%;
 }
 
@@ -108,6 +109,7 @@ html {
     color: #fff;
     font-size: 18px;
     text-align: justify;
+    margin-bottom: 5px;
 }
 
 .project-container .card .face-under .iconify {
@@ -135,14 +137,14 @@ html {
 .project-container .card .face-above h2 {
     margin: 0;
     padding: 0;
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     transition: 0.5s;
     text-shadow: 0 2px 5px rgba(0, 0, 0, .2);
 }
 
 .project-container .card:hover .face-above h2 {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 
