@@ -1,0 +1,7 @@
+-- Todo
+
+-- Features
+
+1. Three view types: website, terminal, resume give user options
+2. Add Lazy Loading
+3. Chatbot
